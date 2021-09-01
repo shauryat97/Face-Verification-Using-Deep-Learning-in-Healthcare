@@ -21,6 +21,5 @@ The post-operative pictures captured, have a part of the patients' face covered 
 
 The problem is to find a solution that will be able to detect and match the patients from pre-op and post-op images to confirm it is the same patient (even when a part of the face is covered with a patch )
 
+# Sample Image
 ![eye_patient](https://user-images.githubusercontent.com/73641247/131727255-5899a758-8273-4cc5-b7f9-0d1cec8ab99b.jpg)
-![Sample Image](https://github.com/shauryat97/Face-Verification-Using-Deep-Learning-in-Healthcare/blob/main/eye_patient.jpg)
-
