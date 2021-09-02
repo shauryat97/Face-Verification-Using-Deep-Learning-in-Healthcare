@@ -26,8 +26,8 @@ The problem is to find a solution that will be able to detect and match the pati
 
 # Team Mates
 - Shaurya Tiwari , MTech Computational & Data Sciences , Indian Institute Of Science, Bangalore
-- Arpana Alka , PhD , Computer Science and Automation , Indian Institute Of Science, Bangalore
-- Vijayakumar Thanelanka , MTech , Electronic Systems Engineering , Indian Institute Of Science, Bangalore
+- Arpana Alka , PhD  Computer Science and Automation , Indian Institute Of Science, Bangalore
+- Vijayakumar Thanelanka , MTech  Electronic Systems Engineering , Indian Institute Of Science, Bangalore
 
 # Approach
 - Split our problem into three sub-problems : data preprocessing,extracting embeddings and learning the final fc layer for the purpose of prediction.
