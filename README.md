@@ -23,3 +23,21 @@ The problem is to find a solution that will be able to detect and match the pati
 
 # Sample Image
 ![eye_patient](https://user-images.githubusercontent.com/73641247/131727255-5899a758-8273-4cc5-b7f9-0d1cec8ab99b.jpg)
+
+# Team Mates
+- Shaurya Tiwari , MTech Computational & Data Sciences , Indian Institute Of Science, Bangalore
+- Arpana Alka , PhD , Computer Science and Automation , Indian Institute Of Science, Bangalore
+- Vijayakumar Thanelanka , MTech , Electronic Systems Engineering , Indian Institute Of Science, Bangalore
+
+# Approach
+- Split our problem into three sub-problems : data preprocessing,extracting embeddings and learning the final fc layer for the purpose of prediction.
+- For the data-preprocessing we used MTCNN to crop out the face part from the whole image.
+- Face Embeddings were obtained from  InceptionResnetV1 which was pretrained on 'vggface2'.
+- Now that we have the embeddings of both pre and post-operation images, we create labels of image pairs for training the fc layer {1:same person , 0:different       person}.
+- Train the fc layer.
+
+<img width="748" alt="approach_img" src="https://user-images.githubusercontent.com/73641247/131900728-1df0f0ff-acd4-4cda-a5d7-d57b36dd00c3.png">
+
+
+
+**Macro F-1** score of our final ensemble : **0.58385**
