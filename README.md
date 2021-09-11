@@ -40,4 +40,4 @@ The problem is to find a solution that will be able to detect and match the pati
 
 
 
-**Macro F-1** score of our final ensemble : **0.58385**
+**Macro F-1** score  : **0.58385**
