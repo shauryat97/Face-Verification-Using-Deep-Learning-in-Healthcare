@@ -1,7 +1,7 @@
 # Face-Verification-Using-Deep-Learning-in-Healthcare
 
 This project was done as a part of a Hackathon for **Deep Learning for Computer Vision** course at IISc.
-My team was among the **top three** teams out of  all the  participating teams in class.
+My team ranked  **third** out of  all the  participating teams in class.
 
 # Introduction
 
